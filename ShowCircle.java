@@ -21,11 +21,10 @@ public class ShowCircle extends Application {
         Pane pane=new Pane();
         pane.getChildren().add(circle);
         
-         Button btOK=new Button("OK");
+        //Button btOK=new Button("OK");
         StackPane pane2=new StackPane();
         pane2.getChildren().add(new Button("ok"));
 
-       
         Scene scene=new Scene(pane,600,250);
         primaryStage.setTitle("ShowCircle");
         primaryStage.setScene(scene);
